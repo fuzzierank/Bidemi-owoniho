@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+data/raw/
+notebooks/.ipynb_checkpoints/
+visualizations/*.png
+.DS_Store

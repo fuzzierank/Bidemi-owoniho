@@ -1,0 +1,12 @@
+# Project Summary - Nigeria Inflation Analysis
+
+## Key Takeaways (June 2026)
+- Headline inflation at **15.93%** (May 2026), down significantly from 2024 peak.
+- Naira exchange rate remains the major driver via imported inflation.
+- ARDL model forecasts continued moderation if Naira stays stable.
+
+## Models Included
+- Lagged OLS Regression (strong pass-through effect)
+- ARDL(2,2) for dynamic forecasting
+
+Run the notebooks and scripts to reproduce all results.

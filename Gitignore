@@ -1,7 +1,35 @@
+# Byte-compiled / cache
 __pycache__/
-*.pyc
-*.ipynb_checkpoints/
-data/raw/
-notebooks/.ipynb_checkpoints/
-visualizations/*.png
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data that should not be committed (large raw files)
+data/raw/*
+!data/raw/.gitkeep
+
+# OS & IDE
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Plots / temporary outputs (keep the folder, ignore generated images if you prefer)
+# visualizations/*.png
+# visualizations/*.jpg
+
+# Environment
+.env
+*.env
